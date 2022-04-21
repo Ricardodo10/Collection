@@ -28,7 +28,10 @@ header>h2{
 article>header{
     width: 100%;
 }
-
+header>img{
+    height: 150px;
+    width: 100%;
+}
 
 main{
     display: flex;
@@ -47,13 +50,13 @@ article{
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);;
+    background: linear-gradient(0.25turn, #41c727, #a86619, #f1f520);;
     
 }
  div{
    
     
-    background-color:midnightblue;
+    background-color: red;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -61,11 +64,11 @@ article{
     height: 200px;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #f69d3c;
+    border: 1px solid #c923c0;
     border-radius: 10px;
 }
 div h3{
-    color: #f69d3c;
+    color: black;
     margin:10px;
     
 }
@@ -75,34 +78,35 @@ div h4{
 }
 
 article:first-of-type img{
-    background-image: url(./img/WR_Infobox_Ezreal.jpg);
-    background-position: bottom;
+    background-image: url(./img/Ezreal_0.jpg);
+    background-position: center;
+    
 }
-article:nth-of-type(2){
+article:nth-of-type(2) img{
     background-image: url(./img/Jhin_0.jpg);
 }
-article:nth-of-type(3){
+article:nth-of-type(3) img{
     background-image: url(./img/zeri-splash.jpg);
 }
-article:nth-of-type(4){
+article:nth-of-type(4) img{
     background-image: url(./img/Lucian_OriginalCentered.jpg);
 }
-article:nth-of-type(5){
-    background-image: url(./img/League_Infobox_Xayah.jpg);
+article:nth-of-type(5) img{
+    background-image: url(./img/Xayah_OriginalCentered.jpg);
 }
-article:nth-of-type(6){
-    background-image: url(./img/League_Infobox_Vayne.jpg);
+article:nth-of-type(6) img{
+    background-image: url(./img/Vayne_0.jpg);
 }
-article:nth-of-type(7){
+article:nth-of-type(7) img{
     background-image: url(./img/Viego_0.jpg);
 }
-article:nth-of-type(8){
+article:nth-of-type(8) img{
     background-image: url(./img/Singed_0.jpg);
 }
-article:nth-of-type(9){
+article:nth-of-type(9) img {
     background-image: url(./img/Tryndamere_0.jpg);
 }
-article:last-of-type{
+article:last-of-type img{
     background-image: url(./img/gwen-splash.jpg);
 }
 

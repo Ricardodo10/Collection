@@ -10,7 +10,7 @@ let collection = [
     {
         name: "Jhin",
         position: "Adc",
-        civilization: "Ionian prisonner",
+        civilization: "Ionian Prisonner",
         picture: "",
         winrate: "50,32%"
     },
@@ -45,7 +45,7 @@ let collection = [
     {
         name: "Viego",
         position: "Jungler",
-        civilization: "A lost Kingdom",
+        civilization: "A Lost Kingdom",
         picture: "",
         winrate: "48,43%"
     },
@@ -80,8 +80,8 @@ let h2 = document.createElement('h2')
 
 header0.appendChild(h1);
 header0.appendChild(h2);
-h1.innerHTML="collection"
-h2.innerHTML = "my favorite league of legends champs"
+h1.innerHTML="Collection"
+h2.innerHTML = "My favorite league of legends champs"
 let main = document.createElement("main")
 body.appendChild(main)
 
